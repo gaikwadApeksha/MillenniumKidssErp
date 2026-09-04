@@ -33,16 +33,16 @@ public class User {
 //	    @Column(unique=true)
 //	    private String email;
 	    
-//	    @Column(nullable = false)
-//	    private String name;
-//	    
-//	    public String getName() {
-//			return name;
-//		}
-//
-//		public void setName(String name) {
-//			this.name = name;
-//		}
+	    @Column(nullable = false)
+	    private String name;
+	    
+	    public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
 
 //		private String resetOtp;
 	    
